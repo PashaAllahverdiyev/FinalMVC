@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Foxic.UI.props" />
+</Project>

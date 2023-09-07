@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Foxic.Core.Entities.ProductDetails>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ShortDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LongDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cotton)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Polyester)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Clean)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NonChlorinne)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tax)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShortDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LongDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cotton)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Polyester)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clean)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NonChlorinne)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tax)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

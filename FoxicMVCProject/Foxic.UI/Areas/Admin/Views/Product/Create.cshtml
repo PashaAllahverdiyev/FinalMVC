@@ -1,0 +1,96 @@
+﻿@using Foxic.Core.Entities;
+@model Foxic.Business.ViewModels.AreaViewModels.ProductVM.ProductCreateViewModel
+
+
+    @{
+    List<Color> colors = ViewBag.Colors;
+    List<Size> sizes = ViewBag.Sizes;
+    List<Brand> brands = ViewBag.Brands;
+   }
+
+<h1>Create</h1>
+
+<h4>ProductCreateViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MainImage" class="control-label"></label>
+                <input asp-for="MainImage" class="form-control" />
+                <span asp-validation-for="MainImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Images" class="control-label"></label>
+                <input asp-for="Images" class="form-control" />
+                <span asp-validation-for="Images" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BrandId" class="control-label"></label>
+                <select asp-for="BrandId">
+                    @foreach (Brand brand in brands)
+                    {
+                        <option value="@brand.Id">@brand.BrandName</option>
+                    }
+                </select>
+
+                <span asp-validation-for="BrandId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <input asp-for="CategoryId" class="form-control" />
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CollectionId" class="control-label"></label>
+                <input asp-for="CollectionId" class="form-control" />
+                <span asp-validation-for="CollectionId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetailId" class="control-label"></label>
+                <input asp-for="DetailId" class="form-control" />
+                <span asp-validation-for="DetailId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ColorIds" class="control-label"></label>
+                <select asp-for="ColorIds">
+                    @foreach (Color color in colors)
+                    {
+                        <option value="@color.Id">@color.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="SizeIds" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SizeIds" class="control-label"></label>
+                <select asp-for="SizeIds">
+                    @foreach (Size size in sizes)
+                    {
+                        <option value="@size.Id">@size.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="SizeIds" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+

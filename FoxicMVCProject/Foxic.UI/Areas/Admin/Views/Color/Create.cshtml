@@ -1,0 +1,40 @@
+﻿@using Foxic.Business.ViewModels.AreaViewModels.ColorViewModels;
+@model ColorCreateViewModels
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4 style="margin:30px 0px 20px 300px">Color</h4>
+<hr />
+<div class="row"style="margin-left:350px">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="@Model.ColorName" class="control-label">Name</label>
+                <input asp-for="@Model.ColorName" class="form-control" />
+                <span asp-validation-for="@Model.ColorName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.ColorUrl" class="control-label">Image</label>
+                <input asp-for="@Model.ColorUrl" class="form-control" />
+                <span asp-validation-for="@Model.ColorUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-top:20px">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section scripts{
+    <partial name="_ValidationPartial"></partial>
+}
+

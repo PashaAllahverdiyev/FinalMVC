@@ -1,0 +1,45 @@
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.deps.json
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.pdb
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.AssemblyReference.cache
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.AssemblyInfoInputs.cache
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.AssemblyInfo.cs
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\refint\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.pdb
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\ref\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.Core.dll
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.Core.pdb
+C:\Users\I'm Pasha\source\repos\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.CopyComplete
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.deps.json
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.pdb
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.Core.dll
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.Core.pdb
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.AssemblyReference.cache
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.AssemblyInfoInputs.cache
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.AssemblyInfo.cs
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.CopyComplete
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\refint\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.pdb
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\ref\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.deps.json
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.DataAccess.pdb
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.Core.dll
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\bin\Debug\net6.0\Foxic.Core.pdb
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.AssemblyReference.cache
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.AssemblyInfoInputs.cache
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.AssemblyInfo.cs
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.csproj.CopyComplete
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\refint\Foxic.DataAccess.dll
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\Foxic.DataAccess.pdb
+C:\Users\I'm Pasha\OneDrive\İş masası\FinalMVC\FinalMVC\FoxicMVCProject\Foxic.DataAccess\obj\Debug\net6.0\ref\Foxic.DataAccess.dll

@@ -1,0 +1,56 @@
+﻿@using Foxic.Business.ViewModels.AreaViewModels.ProductVM;
+@model IEnumerable<ProductListViewModel>
+
+
+
+
+<main id="main" class="main">
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Product</h5>
+
+                    <a asp-action="Create" class="btn btn-dark">Create New </a>
+
+                    <!-- Table with stripped rows -->
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Settings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="~/@item.MainImage" style="width:100px" />
+                                    </td>
+                                    <td>@item.Name</td>
+                                    <td>
+                                        <a asp-action="Details" asp-route-id=@item.Id class="btn btn-primary">
+                                            <i class="bx bx-comment-detail"></i>
+                                        </a>
+                                        <a asp-action="Update" asp-route-id=@item.Id class="btn btn-warning">
+                                            <i class="bx bxs-edit"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id=@item.Id class="btn btn-danger">
+                                            <i class="bx bx-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <!-- End Table with stripped rows -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main><!-- End #main -->

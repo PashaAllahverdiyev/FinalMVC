@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\I'm Pasha\\source\\repos\\FoxicMVCProject\\FoxicBusiness\\FoxicBusiness.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\I'm Pasha\\source\\repos\\FoxicMVCProject\\FoxicBusiness\\FoxicBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\I'm Pasha\\source\\repos\\FoxicMVCProject\\FoxicBusiness\\FoxicBusiness.csproj",
+        "projectName": "FoxicBusiness",
+        "projectPath": "C:\\Users\\I'm Pasha\\source\\repos\\FoxicMVCProject\\FoxicBusiness\\FoxicBusiness.csproj",
+        "packagesPath": "C:\\Users\\I'm Pasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\I'm Pasha\\source\\repos\\FoxicMVCProject\\FoxicBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\I'm Pasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

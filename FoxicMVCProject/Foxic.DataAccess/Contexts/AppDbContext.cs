@@ -1,0 +1,28 @@
+﻿using Foxic.Core.Entities;
+using Foxic.Core.Entities.AreaEntityController;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace Foxic.DataAccess.Contexts;
+
+public class AppDbContext : IdentityDbContext<AppUser>
+{
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+    { }
+    public DbSet<Slider> Sliders { get; set; }
+    public DbSet<Color>Colors { get; set; } 
+    public DbSet<Order>Orders { get; set; }
+    public DbSet<ProductColor> ProductColors { get; set; } 
+    public DbSet<Product> Products { get; set; }
+
+    public DbSet<ProductDetails> ProductDetails { get; set; }
+    public DbSet<OrderItem> ProductOrders { get; set; }
+    public DbSet<ProductSize> ProductSizes { get; set; }
+    public DbSet<Size> Sizes { get; set; }
+    public DbSet<Brand> Brands { get; set; }
+    public DbSet<Category> Categories { get; set; }
+    public DbSet<Collection> Collections { get; set; }
+    public DbSet<Image> Images { get; set; }
+
+
+}
